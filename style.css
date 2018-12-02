@@ -1,0 +1,50 @@
+body, html {
+
+	width: 100%;
+	height: 100%;
+}
+
+header.startup {
+
+	background-image: url("manilaImage.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+h1, p {
+
+	color: #ffffff;
+	
+}
+
+h1 {
+
+	font-size: 4em;
+}
+
+p {
+
+	font-size: 3em;
+}
+
+.row1-index {
+	
+	transition: all 1s;
+}
+
+.row1-index:hover {
+
+	transform: scale(1.1);
+}
+
+.btn:hover {
+
+	cursor: pointer;
+}
+
+hr {
+
+	border-color: #ffffff;
+	border-width: 1px;
+}
